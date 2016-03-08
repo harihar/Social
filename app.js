@@ -7,4 +7,4 @@ app.get("/hello", function (req, res) {
 });
 
 
-app.listen(9095);
+app.listen(process.env.PORT || 9095);
